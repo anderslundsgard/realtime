@@ -10,7 +10,9 @@ function start(route) {
         route(pathname, response);
     });
 
-    server.listen(80);
+	var port = process.env.PORT || 1337;
+	
+    server.listen(port);
 
     console.log("HTTP: Server started and waiting for connections.");
 
