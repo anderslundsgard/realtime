@@ -10,7 +10,7 @@ function start(route) {
         route(pathname, response);
     });
 
-    server.listen(443);
+    server.listen(80);
 
     console.log("HTTP: Server started and waiting for connections.");
 
