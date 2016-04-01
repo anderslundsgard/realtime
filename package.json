@@ -11,5 +11,7 @@
     "mime": "^1.2.11",
     "socket.io": "^1.2.1"
   },
-  "engine": "node 5.4.1"
+  "engines": {
+    "node": "5.4.1"
+  }
 }
